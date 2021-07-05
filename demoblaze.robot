@@ -8,6 +8,7 @@ Resource  Resources/keywords.robot
 *** Test Cases ***
 
 Valid login
+  [Documentation]  Test for loggin in with correct username and password
   Open website
   Go to login
   Enter username
